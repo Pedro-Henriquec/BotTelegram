@@ -7,7 +7,7 @@ Bot Telegram foi um bot que desenvolvi com o intuito de ajudar as pessoas que te
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src="/resultimage1.png" width="220"> 
+<img src="/result/image1.png" width="220"> 
 
 ## Tecnologias
 * Python
