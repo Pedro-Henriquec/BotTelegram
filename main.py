@@ -22,7 +22,7 @@ def send_link(message):
 @bot.message_handler(commands=["1"])
 def Opcao1(mensagem):
     # Crie um botão com link
-    keyboard = types.InlineKeyboardButton(text="Entrar no grupo", url="https://t.me/+BcQjBTRaKTI4NzI5")
+    keyboard = types.InlineKeyboardButton(text="Entrar no grupo", url="URL DO GRUPO")
 
     # Crie uma teclado de teclas inline
     inline_keyboard = types.InlineKeyboardMarkup()
