@@ -2,14 +2,14 @@
 import telebot
 from telebot import types
 
-CHAVE_API = "6106450681:AAElLtGMcb9lm8AzlRaDjK9JzzqCVKpcV80"
+CHAVE_API = "Sua_Chave_API"
 bot = telebot.TeleBot(CHAVE_API)
 
 # Função para enviar o link do grupo
 @bot.message_handler(commands=['link'])
 def send_link(message):
     # Crie um botão com link
-    keyboard = types.InlineKeyboardButton(text="Tips", url="https://t.me/+BcQjBTRaKTI4NzI5")
+    keyboard = types.InlineKeyboardButton(text="Tips", url="URL_DO_GRUPO")
 
     # Crie uma teclado de teclas inline
     inline_keyboard = types.InlineKeyboardMarkup()
@@ -22,7 +22,7 @@ def send_link(message):
 @bot.message_handler(commands=["1"])
 def Opcao1(mensagem):
     # Crie um botão com link
-    keyboard = types.InlineKeyboardButton(text="Entrar no grupo", url="https://t.me/+BcQjBTRaKTI4NzI5")
+    keyboard = types.InlineKeyboardButton(text="Entrar no grupo", url="URL_DO_GRUPO")
 
     # Crie uma teclado de teclas inline
     inline_keyboard = types.InlineKeyboardMarkup()
